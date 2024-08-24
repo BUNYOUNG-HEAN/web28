@@ -1,0 +1,56 @@
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+}
+th{
+    font-weight: bold;
+    background-color: #e7e7e7;
+}
+th,td{
+    text-align: start;
+    font-size: 20px;
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: #e1e1e1;
+}
+img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+button{
+
+    width: 130px;
+    border-radius: 17px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+.Delivered{
+    background-color: rgb(109, 199, 93);
+    color:rgb(6, 84, 6) ;
+}
+.Cancelled{
+    background-color: rgb(225, 114, 114);
+    color:rgb(200, 37, 37);
+}
+.Shipped{
+    background-color: aqua;
+    color: rgb(15, 50, 50);
+}
+.Pending{
+    background-color: rgb(251, 196, 128);
+    color:rgb(65, 46, 22) ;
+}
+.a{
+    font-weight: bold;
+}
